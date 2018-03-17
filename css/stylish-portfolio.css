@@ -105,9 +105,8 @@ h6 {
   padding: 0;
 }
 @media (max-width: 768px) {
-    .parallaxOne {
+    .masthead {
         background-attachment: scroll;
-    }
 }
 @media (min-width: 992px) {
  .masthead {
