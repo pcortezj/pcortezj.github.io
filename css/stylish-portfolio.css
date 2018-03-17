@@ -80,7 +80,7 @@ h6 {
   font-weight: 800;
 }
 
-.masthead {
+.masthead:before {
   min-height: 30rem;
   position: relative;
   display: table;
