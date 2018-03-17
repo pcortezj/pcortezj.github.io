@@ -4,8 +4,16 @@ html {
   height: 100%;
 }
 
-body {
+body:before {
   font-family: 'Source Sans Pro';
+    content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
 }
 
 .btn-xl {
