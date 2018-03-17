@@ -8,6 +8,12 @@ body {
   font-family: 'Source Sans Pro';
 }
 
+#wrapper{
+		width: 100%;
+		height: 100%;
+		overflow: scroll;
+}
+
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
