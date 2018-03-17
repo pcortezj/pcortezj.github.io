@@ -92,6 +92,9 @@ h6 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -102,14 +105,9 @@ h6 {
 }
 
 @media (min-width: 992px) {
-/*  .masthead {
+ .masthead {
     height: 100vh;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/mast.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  }*/
+  }
   .masthead h1 {
     font-size: 5.5rem;
   }
