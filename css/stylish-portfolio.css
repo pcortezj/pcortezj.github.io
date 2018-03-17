@@ -80,7 +80,7 @@ h6 {
   font-weight: 800;
 }
 
-.masthead:before {
+.masthead {
   min-height: 30rem;
   position: relative;
   display: table;
@@ -104,7 +104,11 @@ h6 {
   margin: 0;
   padding: 0;
 }
-
+@media (max-width: 768px) {
+    .parallaxOne {
+        background-attachment: scroll;
+    }
+}
 @media (min-width: 992px) {
  .masthead {
     height: 100vh;
