@@ -106,6 +106,7 @@ h6 {
 @media (max-width: 768px) {
     .masthead {
         background-attachment: scroll;
+  }
 }
 @media (min-width: 992px) {
  .masthead {
