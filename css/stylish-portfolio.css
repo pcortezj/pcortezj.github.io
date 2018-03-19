@@ -104,7 +104,7 @@ h6 {
 }
 
 @media(max-width: 568px){
-  .plax{
+  .masthead , #portfolio{
     background-attachment: scroll;
   }
 }
