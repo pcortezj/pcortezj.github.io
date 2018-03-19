@@ -237,17 +237,30 @@ h6 {
 }
 
 #portfolio {
-  position: relative;
   padding: 15rem 0;
-  height: 100%;
-  width: 100%;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/code.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    #portfolio{
+      background-size: cover;
+  }
+}
 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    #portfolio{
+      background-size: cover;
+  }
+}
 
 .callout h2 {
   font-size: 3.5rem;
