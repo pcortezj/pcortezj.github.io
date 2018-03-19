@@ -11,12 +11,7 @@ body:before {
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
-.plax{
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
@@ -82,6 +77,14 @@ h6 {
 
 .scroll-to-top i {
   font-weight: 800;
+}
+
+.plax{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .masthead {
