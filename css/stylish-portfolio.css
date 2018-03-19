@@ -89,6 +89,8 @@ h6 {
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/mast.jpg");
+}
+.plax{
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -97,11 +99,16 @@ h6 {
   -o-background-size: cover;
   background-size: cover;
 }
-
 .masthead h1 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+}
+
+@media(max-width: 568px){
+  .plax{
+    background-attachment: scroll;
+  }
 }
 
 @media (min-width: 992px) {
