@@ -225,7 +225,6 @@ h6 {
 #portfolio {
   padding: 15rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/code.jpg");
-  height: 100%;
 }
 
 .callout h2 {
