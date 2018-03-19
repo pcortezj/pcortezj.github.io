@@ -110,6 +110,9 @@ h6 {
     .masthead , #portfolio{
     background-attachment: scroll;
   }
+    #target{
+      display: flex;
+    }
 }
 
 @media only screen 
@@ -119,6 +122,9 @@ h6 {
     .masthead , #portfolio{
     background-attachment: scroll;
   }
+    #target {
+      display: flex;
+    }
 }
 
   
