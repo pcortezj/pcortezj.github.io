@@ -261,7 +261,7 @@ h6 {
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
     #portfolio{
-      background-size: cover;
+      background-attachment: scroll;
   }
 }
 
@@ -270,7 +270,7 @@ h6 {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
     #portfolio{
-      background-size: cover;
+      background-attachment: scroll;
   }
 }
 
